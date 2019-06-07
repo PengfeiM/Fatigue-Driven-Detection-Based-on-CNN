@@ -15,7 +15,7 @@
 1、PERCLOS计算			DONE
 2、眨眼频率计算			DONE
 3、打哈欠检测及计算		DONE
-4、疲劳检测				简单的考虑了眨眼频率和PERCLOS，打哈欠还没加进去。未进一步优化
+4、疲劳检测				DONE
 
 
 主要文件说明：
@@ -47,6 +47,8 @@ weights
 tested
 
 	
+参考代码：
+https://github.com/amdegroot/ssd.pytorch
 
 
 
