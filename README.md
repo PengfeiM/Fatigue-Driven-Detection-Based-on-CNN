@@ -50,5 +50,5 @@ tested
 参考代码：
 https://github.com/amdegroot/ssd.pytorch
 
-
+数据集和权重文件回头上传至百度云之类后贴链接把
 
