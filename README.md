@@ -54,5 +54,3 @@ https://github.com/amdegroot/ssd.pytorch
 链接：https://pan.baidu.com/s/1c6UZeEioruy2SzGkSKDWPQ 
 提取码：euci
 
-vgg16quan'chong'we
-
