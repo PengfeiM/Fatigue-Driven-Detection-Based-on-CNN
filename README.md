@@ -50,5 +50,9 @@ tested
 参考代码：
 https://github.com/amdegroot/ssd.pytorch
 
-数据集和权重文件回头上传至百度云之类后贴链接把
+数据集和权重文件：
+链接：https://pan.baidu.com/s/1c6UZeEioruy2SzGkSKDWPQ 
+提取码：euci
+
+vgg16quan'chong'we
 
