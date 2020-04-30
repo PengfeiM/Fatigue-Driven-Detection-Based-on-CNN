@@ -54,3 +54,6 @@ https://github.com/amdegroot/ssd.pytorch
 链接：https://pan.baidu.com/s/1c6UZeEioruy2SzGkSKDWPQ 
 提取码：euci
 
+
+1、运行Train.py训练
+2、eval可以用于测试整个测试集，test用于单张图片测试。
