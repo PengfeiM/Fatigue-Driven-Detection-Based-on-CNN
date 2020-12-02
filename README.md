@@ -11,14 +11,14 @@
 测试网络性能 python eval.py
 测试视频 python camera_detection.py
 
-##目前进度：
+## 目前进度：
 1、PERCLOS计算			DONE
 2、眨眼频率计算			DONE
 3、打哈欠检测及计算		DONE
 4、疲劳检测				DONE
 
 
-主要文件说明：
+## 主要文件说明：
 ssd_net_vgg.py			定义class SSD的文件
 Train.py 				训练代码
 voc0712.py				数据集处理代码（没有改文件名，改的话还要改其他代码，麻烦）
@@ -33,7 +33,7 @@ camera.py				opencv调用摄像头测试
 camera_detection.py		摄像头检测代码V1,V2
 video_detection.py		视频检测，V3
 
-数据集结构：
+## 数据集结构：
 >/dataset:
 >>/Annotations 存放含有目标信息的xml文件
 >>/ImageSets/Main		存放图片名的文件
@@ -41,18 +41,18 @@ video_detection.py		视频检测，V3
 >>/gray2rgb.m			灰度图转三通道
 >>/txt.py				生成ImageSets文件的代码
 
-权重文件存放路径：
+## 权重文件存放路径：
 weights
 测试后的图片存放位置：
 tested
 
-参考代码：
+## 参考代码：
 https://github.com/amdegroot/ssd.pytorch
 
-数据集和权重文件：
+## 数据集和权重文件：
 链接：https://pan.baidu.com/s/1c6UZeEioruy2SzGkSKDWPQ
 提取码：euci
 
-
+## 测试
 1、运行Train.py训练
 2、eval可以用于测试整个测试集，test用于单张图片测试。
