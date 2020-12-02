@@ -1,14 +1,14 @@
-运行环境：  
+## 运行环境：
 >1.python 3.7.1
->2.pytorch 1.0.1  
->3.python-opencv  
-  
-## 说明  
+>2.pytorch 1.0.1
+>3.python-opencv
+
+## 说明
 预训练的权重文件[vgg_16]
-具体的配置文件请看Config.py文件  
-训练运行python Train.py  
+具体的配置文件请看Config.py文件
+训练运行python Train.py
 单张测试 python test.py
-测试网络性能 python eval.py   
+测试网络性能 python eval.py
 测试视频 python camera_detection.py
 
 ##目前进度：
@@ -34,19 +34,18 @@ camera_detection.py		摄像头检测代码V1,V2
 video_detection.py		视频检测，V3
 
 数据集结构：
-/dataset:
-	/Annotations		存放含有目标信息的xml文件
-	/ImageSets/Main		存放图片名的文件
-	/JPEGImages			存放图片
-	/gray2rgb.m			灰度图转三通道
-	/txt.py				生成ImageSets文件的代码
+>/dataset:
+>>/Annotations 存放含有目标信息的xml文件
+>>/ImageSets/Main		存放图片名的文件
+>>/JPEGImages			存放图片
+>>/gray2rgb.m			灰度图转三通道
+>>/txt.py				生成ImageSets文件的代码
 
 权重文件存放路径：
 weights
 测试后的图片存放位置：
 tested
 
-	
 参考代码：
 https://github.com/amdegroot/ssd.pytorch
 
