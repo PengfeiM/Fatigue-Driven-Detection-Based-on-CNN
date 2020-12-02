@@ -5,17 +5,22 @@
 
 ## 说明
 预训练的权重文件[vgg_16]
-具体的配置文件请看Config.py文件
-训练运行python Train.py
-单张测试 python test.py
-测试网络性能 python eval.py
-测试视频 python camera_detection.py
+
+1、具体的配置文件请看Config.py文件
+
+2、训练运行python Train.py
+
+3、单张测试 python test.py
+
+4、测试网络性能 python eval.py
+
+5、测试视频 python camera_detection.py
 
 ## 目前进度：
-1、PERCLOS计算			DONE
-2、眨眼频率计算			DONE
-3、打哈欠检测及计算		DONE
-4、疲劳检测				DONE
+|PERCLOS计算|			DONE|
+|眨眼频率计算		|	DONE|
+|打哈欠检测及计算	|	DONE|
+|疲劳检测				|DONE|
 
 
 ## 主要文件说明：
