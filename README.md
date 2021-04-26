@@ -1,20 +1,20 @@
-## 运行环境：
+## 运行环境（Excution Environment）：
 
 > 1.python 3.7.1
 > 2.pytorch 1.0.1
 > 3.python-opencv
 
-## 说明
+## 说明（Notions）
 
 预训练的权重文件[vgg_16]
 
-1、具体的配置文件请看 Config.py 文件  
-2、训练运行 python Train.py  
-3、单张测试 python test.py  
-4、测试网络性能 python eval.py  
-5、测试视频 python camera_detection.py
+1、具体的配置文件请看 Config.py 文件--file that save the configuration  
+2、训练运行 python Train.py        --file that start the training and control the loops
+3、单张测试 python test.py         --file that test ssd with one image
+4、测试网络性能 python eval.py     --file that evaluate the performance
+5、测试视频 python camera_detection.py --file that test the cnn with a video sequence
 
-## 目前进度：
+## 目前进度（Process: All Done）：
 
 | 内容             | 进度 |
 | ---------------- | ---- |
@@ -23,13 +23,13 @@
 | 打哈欠检测及计算 | DONE |
 | 疲劳检测         | DONE |
 
-## 主要文件说明：
+## 主要文件说明（File in the repo）：
 
-ssd_net_vgg.py 定义 class SSD 的文件  
-Train.py 训练代码  
-voc0712.py 数据集处理代码（没有改文件名，改的话还要改其他代码，麻烦）  
-loss_function.py 损失函数  
-detection.py 检测结果的处理代码，将 SSD 返回结果处理为 opencv 可以处理的形式  
+ssd_net_vgg.py 定义 class SSD 的文件（define the ssd cnn）
+Train.py 训练代码  (training)
+voc0712.py 数据集处理代码（没有改文件名，改的话还要改其他代码，麻烦）  (processing the dataset)
+loss_function.py 损失函数  (loss function)
+detection.py 检测结果的处理代码，将 SSD 返回结果处理为 opencv 可以处理的形式 
 eval.py 评估网络性能代码  
 test.py 单张图片测试代码 Ps:没写参数接口，所以要改测试的图片就要手动改代码内部文件名了  
 l2norm.py l2 正则化  
@@ -68,3 +68,14 @@ https://github.com/amdegroot/ssd.pytorch
 
 1、运行 Train.py 训练
 2、eval 可以用于测试整个测试集，test 用于单张图片测试。
+
+## 关于问题讨论
+欢迎大家就代码中存在的问题提issue，同时本存储库开放了讨论功能（Discussion），欢迎各位将一些共性的问题放到Dicussion中提问（我也会将部分以前的issue放到Discussion中）。
+
+## 关于咨询
+如果issue和Discussion不能满足您的需要，随时可以发邮件到[我的邮箱](PengfeiM@outlook.com)提出您的问题。
+当然，不管是issue/discussion还是邮件，我都会尽快回复（issue和discussion有更新github会给我发邮件，我也会时常检查github手机端APP）。
+
+**最后，如果您想要支持我的工作，请扫描下面的二维码**
+![我的支付宝](https://user-images.githubusercontent.com/45191163/116050673-55db0400-a6aa-11eb-9588-cc0546e89f70.jpg)
+**谢谢您对我的支持和帮助**
