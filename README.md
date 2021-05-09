@@ -1,8 +1,9 @@
 ## 运行环境（Excution Environment）：
 
-> 1.python 3.7.1
-> 2.pytorch 1.0.1
-> 3.python-opencv
+> 1.python 3.7.1  
+> 2.pytorch 1.0.1  
+> 3.python-opencv  
+> 4.cuda大概可能是8或者9，时间太久记不清了。   不过主要还是显卡-cuda-cudnn-pytorch版本对应吧。
 
 ## 说明（Notions）
 
