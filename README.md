@@ -62,8 +62,12 @@ https://github.com/amdegroot/ssd.pytorch
 
 ## 数据集和权重文件：
 
-链接：https://pan.baidu.com/s/1c6UZeEioruy2SzGkSKDWPQ
-提取码：euci
+百度云：
+[数据集和权重文件](https://pan.baidu.com/s/1c6UZeEioruy2SzGkSKDWPQ)
+提取码：euci  
+Onedrive：
+[数据集](https://mailustceducn-my.sharepoint.com/:u:/g/personal/mpf916_mail_ustc_edu_cn/ER0UB-cAe1VDp9hJZ7e5Ef4B7kGvVX4PePSj7WRtb9VrLQ?e=lbDnjV)
+[权重文件](https://mailustceducn-my.sharepoint.com/:f:/g/personal/mpf916_mail_ustc_edu_cn/EqGCPA3SGz5Mp-RMHJSoSSwBg-KG09qwgSAPiOjMOcVVtQ?e=v5yhQz)
 
 ## 测试
 
