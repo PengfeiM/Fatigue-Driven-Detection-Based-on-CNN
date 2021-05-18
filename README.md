@@ -9,11 +9,11 @@
 
 预训练的权重文件[vgg_16]
 
-1、具体的配置文件请看 Config.py 文件--file that save the configuration  
-2、训练运行 python Train.py        --file that start the training and control the loops
-3、单张测试 python test.py         --file that test ssd with one image
-4、测试网络性能 python eval.py     --file that evaluate the performance
-5、测试视频 python camera_detection.py --file that test the cnn with a video sequence
+1、具体的配置文件请看 Config.py 文件--file that save the configuration    
+2、训练运行 python Train.py        --file that start the training and control the loops  
+3、单张测试 python test.py         --file that test ssd with one image  
+4、测试网络性能 python eval.py     --file that evaluate the performance  
+5、测试视频 python camera_detection.py --file that test the cnn with a video sequence  
 
 ## 目前进度（Process: All Done）：
 
@@ -26,15 +26,15 @@
 
 ## 主要文件说明（File in the repo）：
 
-ssd_net_vgg.py 定义 class SSD 的文件（define the ssd cnn）
-Train.py 训练代码  (training)
-voc0712.py 数据集处理代码（没有改文件名，改的话还要改其他代码，麻烦）  (processing the dataset)
-loss_function.py 损失函数  (loss function)
-detection.py 检测结果的处理代码，将 SSD 返回结果处理为 opencv 可以处理的形式 
-eval.py 评估网络性能代码  
-test.py 单张图片测试代码 Ps:没写参数接口，所以要改测试的图片就要手动改代码内部文件名了  
-l2norm.py l2 正则化  
-Config.py 配置参数  
+ssd_net_vgg.py 定义 class SSD 的文件（define the ssd cnn）  
+Train.py 训练代码  (training)  
+voc0712.py 数据集处理代码（没有改文件名，改的话还要改其他代码，麻烦）  (processing the dataset)  
+loss_function.py 损失函数  (loss function)  
+detection.py 检测结果的处理代码，将 SSD 返回结果处理为 opencv 可以处理的形式   
+eval.py 评估网络性能代码    
+test.py 单张图片测试代码 Ps:没写参数接口，所以要改测试的图片就要手动改代码内部文件名了    
+l2norm.py l2 正则化    
+Config.py 配置参数     
 utils.py 工具类  
 camera.py opencv 调用摄像头测试  
 camera_detection.py 摄像头检测代码 V1,V2  
