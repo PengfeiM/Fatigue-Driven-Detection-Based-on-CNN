@@ -78,7 +78,7 @@ Onedrive：
 欢迎大家就代码中存在的问题提issue，同时本存储库开放了讨论功能（Discussion），欢迎各位将一些共性的问题放到Dicussion中提问（我也会将部分以前的issue放到Discussion中）。
 
 ## 关于咨询
-如果issue和Discussion不能满足您的需要，随时可以发邮件到[我的邮箱](PengfeiM@outlook.com)提出您的问题。
+如果issue和Discussion不能满足您的需要，随时可以发邮件到我的邮箱(PengfeiM@outlook.com)提出您的问题。
 当然，不管是issue/discussion还是邮件，我都会尽快回复（issue和discussion有更新github会给我发邮件，我也会时常检查github手机端APP）。
 
 **最后，如果您想要支持我的工作，请扫描下面的二维码**
