@@ -61,10 +61,10 @@ tested
 https://github.com/amdegroot/ssd.pytorch
 
 ## 数据集和权重文件：
-
+（针对部分代码中涉及的文件（指ssd_voc_5000_plus.pth），翻了翻旧U盘，算是找到了。）
 百度云：
-[数据集和权重文件](https://pan.baidu.com/s/1c6UZeEioruy2SzGkSKDWPQ)
-提取码：euci  
+[数据集和权重文件](https://pan.baidu.com/s/1cgl94gxSNEW0ZI-wYcZtpQ)
+提取码：hwsi  
 Onedrive：
 [数据集](https://mailustceducn-my.sharepoint.com/:u:/g/personal/mpf916_mail_ustc_edu_cn/ER0UB-cAe1VDp9hJZ7e5Ef4B7kGvVX4PePSj7WRtb9VrLQ?e=lbDnjV)
 [权重文件](https://mailustceducn-my.sharepoint.com/:f:/g/personal/mpf916_mail_ustc_edu_cn/EqGCPA3SGz5Mp-RMHJSoSSwBg-KG09qwgSAPiOjMOcVVtQ?e=v5yhQz)
@@ -83,4 +83,5 @@ Onedrive：
 
 **最后，如果您想要支持我的工作，请扫描下面的二维码**
 ![我的支付宝](https://user-images.githubusercontent.com/45191163/116050673-55db0400-a6aa-11eb-9588-cc0546e89f70.jpg)
+
 **谢谢您对我的支持和帮助**
