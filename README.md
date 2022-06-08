@@ -1,6 +1,10 @@
 # 郑重声明：
 本项目是我在github（国内的话是gitee）的免费开源项目。如果你在某些平台（CSDN、淘宝）付费下载了该项目，烦请告知（邮箱(PengfeiM@outlook.com)）。
 
+## 更新说明
+针对近来很多同学反映的在新版本pytorch下程序报错：
+"RuntimeError: Legacy autograd function with non-static forward method is deprecated. Please use new-style autograd function with static forward method. (Example: https://pytorch.org/docs/stable/autograd.html#torch.autograd.Function)" 。
+做了修改了detection、Test、xxx_detection等部分代码，可适应新版本pytorch。另外旧版本pytor请选择old-pytorch分支。
 
 
 ## 运行环境（Excution Environment）：
