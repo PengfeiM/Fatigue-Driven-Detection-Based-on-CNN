@@ -1,6 +1,3 @@
-'''
-本项目是我在github（国内的话是gitee）的免费开源项目。如果你在某些平台（CSDN、淘宝）付费下载了该项目，烦请告知（邮箱(PengfeiM@outlook.com)）。
-'''
 from torch.autograd import Variable
 from detection import *
 from ssd_net_vgg import *
@@ -30,7 +27,7 @@ def Yawn(list_Y,list_y1):
 net=SSD()
 net=torch.nn.DataParallel(net)
 net.train(mode=False)
-net.load_state_dict(torch.load('./weights/ssd_voc_5000_plus.pth',map_location=lambda storage,loc: storage))
+net.load_state_dict(torch.load('./weights/ssd300_VOC_100000.pth',map_location=lambda storage,loc: storage))
 if torch.cuda.is_available():
 	net = net.cuda()
 	cudnn.benchmark = True
@@ -71,7 +68,8 @@ while(True):
 		xx=xx.cuda()
 	y=net(xx)
 	softmax=nn.Softmax(dim=-1)
-	detect=Detect(config.class_num,0,200,0.01,0.45)
+	#detect=Detect(config.class_num,0,200,0.01,0.45)
+	detect = Detect.apply
 	priors=utils.default_prior_box()
 
 	loc,conf=y
@@ -81,7 +79,11 @@ while(True):
 	detections=detect(
 		loc.view(loc.size(0),-1,4),
 		softmax(conf.view(conf.size(0),-1,config.class_num)),
-		torch.cat([o.view(-1,4) for o in priors],0)
+		torch.cat([o.view(-1,4) for o in priors],0),
+		config.class_num,
+		200,
+		0.7,
+		0.45
 	).data
 	labels=VOC_CLASSES
 	top_k=10

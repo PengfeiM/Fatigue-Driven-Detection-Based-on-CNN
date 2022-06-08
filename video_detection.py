@@ -3,11 +3,6 @@
 Created on Fri Apr 26 15:58:49 2019
 
 @author: 朋飞
-
-
-本项目是我在github（国内的话是gitee）的免费开源项目。如果你在某些平台（CSDN、淘宝）付费下载了该项目，烦请告知（邮箱(PengfeiM@outlook.com)）。
-
-
 """
 
 from torch.autograd import Variable
@@ -47,7 +42,7 @@ if torch.cuda.is_available():
 img_mean=(104.0,117.0,123.0)
 
 #打开视频文件，file_name改成0即为打开摄像头
-file_name='../Captures/003.WMV'
+file_name='C:/Users/HP/Desktop/9-FemaleNoGlasses.avi'
 cap=cv2.VideoCapture(file_name)
 max_fps=0
 
@@ -87,7 +82,8 @@ while cap.isOpened():
 		xx=xx.cuda()
 	y=net(xx)
 	softmax=nn.Softmax(dim=-1)
-	detect=Detect(config.class_num,0,200,0.01,0.45)
+	# detect=Detect(config.class_num,0,200,0.01,0.45)
+	detect = Detect.apply
 	priors=utils.default_prior_box()
 
 	loc,conf=y
@@ -97,7 +93,11 @@ while cap.isOpened():
 	detections=detect(
 		loc.view(loc.size(0),-1,4),
 		softmax(conf.view(conf.size(0),-1,config.class_num)),
-		torch.cat([o.view(-1,4) for o in priors],0)
+		torch.cat([o.view(-1,4) for o in priors],0),
+		config.class_num,
+		200,
+    	0.7,
+    	0.45
 	).data
 	labels=VOC_CLASSES
 	top_k=10
