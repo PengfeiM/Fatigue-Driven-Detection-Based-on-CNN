@@ -1,4 +1,6 @@
-# 更新/Update
+# 基于 CNN 的疲劳驾驶检测
+简单的毕设小项目
+## 更新/Update
 > [!ATTENTION] 这个项目我很久没更新了，由于一些原因吧。最近终于有时间把自己的开发环境重新整好了。  
 > 很高兴看到还有人在关注这个项目，只有由于一些个人原因没能及时回复大家的疑问，请谅解。
 > 接下来一段时间，我会在工作之余，尽可能修复这个项目中的一些问题（主要是版本不兼容），同时我也会把我自己的项目环境放在
@@ -36,18 +38,12 @@
 啊，看起来显卡信息这里没有。我的机器其实有一个独显3060laptop，相信知道这个显卡的大概了解其性能，不再多做赘述。
 
 
-# 郑重声明：
+## 郑重声明：
 本项目是我在github（国内的话是gitee）的免费开源项目。我没有授权任何平台（CSDN、淘宝）付费提供该项目。  
 This project is open-source on github and gitee.  
 No authorization to any platform to sell my project.  
 
 > [!IMPORTANT] 如果你需要论文，请直接发[邮件](PengfeiM@outlook.com)，不要提 issue，issue用来解决问题，或者提出你的想法。
-
-## 更新说明
-针对近来很多同学反映的在新版本pytorch下程序报错：
-"RuntimeError: Legacy autograd function with non-static forward method is deprecated. Please use new-style autograd function with static forward method. (Example: https://pytorch.org/docs/stable/autograd.html#torch.autograd.Function)" 。
-做了修改了detection、Test、xxx_detection等部分代码，可适应新版本pytorch。另外旧版本pytor请选择old-pytorch分支。
-
 
 ## 运行环境（Excution Environment）：
 
@@ -136,3 +132,6 @@ Onedrive：
 ![我的支付宝](https://user-images.githubusercontent.com/45191163/116050673-55db0400-a6aa-11eb-9588-cc0546e89f70.jpg)
 
 **谢谢您对我的支持和帮助**
+## Star History
+[![Star History Chart](https://api.star-history.com/svg?repos=PengfeiM/Fatigue-Driven-Detection-Based-on-CNN&type=Date)](https://www.star-history.com/#PengfeiM/Fatigue-Driven-Detection-Based-on-CNN&Date)
+
