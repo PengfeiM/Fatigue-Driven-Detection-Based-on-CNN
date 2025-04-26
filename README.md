@@ -1,5 +1,47 @@
+# 更新/Update
+> [!ATTENTION] 这个项目我很久没更新了，由于一些原因吧。最近终于有时间把自己的开发环境重新整好了。  
+> 很高兴看到还有人在关注这个项目，只有由于一些个人原因没能及时回复大家的疑问，请谅解。
+> 接下来一段时间，我会在工作之余，尽可能修复这个项目中的一些问题（主要是版本不兼容），同时我也会把我自己的项目环境放在
+> 代码仓中，如果你使用 miniconda 或者 anaconda，那么你可以直接从 `environment.yml` 导入项目的虚拟环境。
+> 即使不适用 conda，我想这个清单也可以在一定程度上帮助你配置环境。
+> 暂时我会使用 cpu 先调试项目，可以的话，后续会把 gpu 相关环境配置和方法放上来。
+
+**我的硬件配置**
+> 作为参考
+```bash
+        _,met$$$$$gg.          revan_m@Ebon-Hawk
+     ,g$$$$$$$$$$$$$$$P.       -----------------
+   ,g$$P""       """Y$$.".     OS: Debian GNU/Linux 12 (bookworm) x86_64
+  ,$$P'              `$$$.     Host: Windows Subsystem for Linux - Debian (2.4.13)
+',$$P       ,ggs.     `$$b:    Kernel: Linux 5.15.167.4-microsoft-standard-WSL2
+`d$$'     ,$P"'   .    $$$     
+ $$P      d$'     ,    $$P     
+ $$:      $$.   -    ,d$$'     Shell: zsh 5.9
+ $$;      Y$b._   _,d$P'       WM: WSLg 1.0.65 (Wayland)
+ Y$$.    `.`"Y$$$$P"'          Terminal: tmux 3.5a
+ `$$b      "-.__               CPU: 11th Gen Intel(R) Core(TM) i7-11800H (4) @ 2.30 GHz
+  `Y$$b                        GPU 1: Microsoft Basic Render Driver
+   `Y$$.                       GPU 2: Microsoft Basic Render Driver
+     `$$b.                     Memory: 740.60 MiB / 7.63 GiB (9%)
+       `Y$$b.                  Swap: 0 B / 2.00 GiB (0%)
+         `"Y$b._               
+             `""""             
+                               
+                               
+                               
+                               
+                               Battery (Microsoft Hyper-V Virtual Batte): 100% [AC Connected]
+                               Locale: zh_CN.UTF-8
+```
+啊，看起来显卡信息这里没有。我的机器其实有一个独显3060laptop，相信知道这个显卡的大概了解其性能，不再多做赘述。
+
+
 # 郑重声明：
-本项目是我在github（国内的话是gitee）的免费开源项目。如果你在某些平台（CSDN、淘宝）付费下载了该项目，烦请告知（邮箱(PengfeiM@outlook.com)）。
+本项目是我在github（国内的话是gitee）的免费开源项目。我没有授权任何平台（CSDN、淘宝）付费提供该项目。  
+This project is open-source on github and gitee.  
+No authorization to any platform to sell my project.  
+
+> [!IMPORTANT] 如果你需要论文，请直接发[邮件](PengfeiM@outlook.com)，不要提 issue，issue用来解决问题，或者提出你的想法。
 
 ## 更新说明
 针对近来很多同学反映的在新版本pytorch下程序报错：
